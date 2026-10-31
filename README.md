@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tessio-eu is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tessio.eu/
+Tessio.Cloud provides an age verification API for the EU digital wallet ecosystem. It enables applications to verify that users are over 18 via the EU age verification app, returning a signed yes or no without storing personal ID data. The service is built by Triple Down AB in Stockholm, Sweden, and offers webhook callbacks and statistical endpoints.
+
+**Areas:** Company · AgeVerification · EU · API · Identity
+
+## tessio-eu on APIs.io
+
+Everything profiled for tessio-eu is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tessio-eu/](https://apis.io/providers/tessio-eu/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [tessio-eu Age Verification API](https://apis.io/apis/tessio-eu/tessio-eu-age-verification-api/) — The Age Verification API from tessio-eu — 2 operation(s) for age verification.
+- [tessio-eu Stats API](https://apis.io/apis/tessio-eu/tessio-eu-stats-api/) — The Stats API from tessio-eu — 5 operation(s) for stats.
+- [tessio-eu Webhooks API](https://apis.io/apis/tessio-eu/tessio-eu-webhooks-api/) — The Webhooks API from tessio-eu — 2 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tessio Eu Agentic Access](https://apis.io/agentic-access/tessio-eu/tessio-eu-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgeCheck](https://apis.io/schemas/tessio-eu/tessio-eu-age-check/)
+- [AgeCheckCreated](https://apis.io/schemas/tessio-eu/tessio-eu-age-check-created/)
+- [AgeCheckStatsSeries](https://apis.io/schemas/tessio-eu/tessio-eu-age-check-stats-series/)
+- [CreateAgeCheckRequest](https://apis.io/schemas/tessio-eu/tessio-eu-create-age-check-request/)
+- [SetWebhookRequest](https://apis.io/schemas/tessio-eu/tessio-eu-set-webhook-request/)
+- [WebhookCreated](https://apis.io/schemas/tessio-eu/tessio-eu-webhook-created/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tessio Eu Context](https://apis.io/jsonld/tessio-eu/tessio-eu-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [tessio-eu API Rules](https://apis.io/rules/tessio-eu/tessio-eu-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tessio Eu Authentication](https://apis.io/security/tessio-eu/tessio-eu-authentication/)
+- [Tessio Eu Domain Security](https://apis.io/security/tessio-eu/tessio-eu-domain-security/)
+- [Tessio Eu Trust Center](https://apis.io/security/tessio-eu/tessio-eu-trust-center/)
+- [Tessio Eu Vulnerability Disclosure](https://apis.io/security/tessio-eu/tessio-eu-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Tessio Eu Scopes](https://apis.io/scopes/tessio-eu/tessio-eu-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tessio Eu Plans Pricing](https://apis.io/plans/tessio-eu/tessio-eu-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tessio.eu/)
+- [Documentation](https://tessio.eu/docs/)
+- [Getting started](https://tessio.eu/docs/)
+- [API reference](https://tessio.eu/docs/api/)
+- [Pricing](https://tessio.eu/pricing/)
+- [Support](https://tessio.eu/security/)
+- [Security](https://tessio.eu/security)
+- [Compliance](https://tessio.eu/security/)
+- [Terms of service](https://tessio.eu/terms/)
+- [Privacy policy](https://tessio.eu/privacy/)
+- [GitHub](https://github.com/tripledownab)
+- [Status](https://status.tessio.eu)
+
+## API Evangelist rating
+
+**Kin Score 69.8** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 88.9 |
+
+**Agent readiness 47.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 45.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tessio-eu/](https://apis.io/providers/tessio-eu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for tessio-eu: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tessio-eu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
